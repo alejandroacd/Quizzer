@@ -1,0 +1,25 @@
+.card2 {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin: 0 auto;
+    position:relative;
+    top:10%;
+    
+
+}
+.card2 input {
+    background: transparent;
+    color:unset;
+}
+.card2 input:focus {
+    outline: none;
+    border-bottom: 1px solid #fdca40;
+    transition: 0.5s;
+}
+
+@media only screen and (min-width: 992px) {
+    .card2 {
+        top:20%;
+    }
+}
