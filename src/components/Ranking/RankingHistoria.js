@@ -8,7 +8,7 @@ export const RankingHistoria = () => {
     const [rank,setRank] = useState([])
 
     useEffect(() => {
-        Axios.get('http://localhost:3001/dbHistory')
+        Axios.get('https://quizzerproject.herokuapp.com/dbHistory')
         .then((resp) => {
             setRank(resp.data)
         })

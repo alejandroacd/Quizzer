@@ -25,7 +25,7 @@ const PreguntasDeportes = () => {
 
     if (timer === 0) {
        if(count > highScore){
-           Axios.put('http://localhost:3001/updateSports', {
+           Axios.put('https://quizzerproject.herokuapp.com/updateSports', {
                id: user[0]._id,
                highScoreSports: count
               

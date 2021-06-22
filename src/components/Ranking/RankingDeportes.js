@@ -10,7 +10,7 @@ const RankingDeportes = () => {
     const [rank,setRank] = useState([])
 
     useEffect(() => {
-        Axios.get('http://localhost:3001/dbSports')
+        Axios.get('https://quizzerproject.herokuapp.com/dbSports')
         .then((resp) => {
             setRank(resp.data)
         })

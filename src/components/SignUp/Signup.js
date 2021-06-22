@@ -23,7 +23,7 @@ const Signup = () => {
 
      await signup(emailRef.current.value,passwordRef.current.value,usernameRef.current.value)
      .then(() => {
-      Axios.post("http://localhost:3001/insert", {
+      Axios.post("https://quizzerproject.herokuapp.com/insert", {
         userName: usernameRef.current.value
       })
      })

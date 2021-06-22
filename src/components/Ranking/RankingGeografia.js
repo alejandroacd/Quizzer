@@ -10,7 +10,7 @@ export const RankingGeografia = () => {
     const [rank,setRank] = useState([])
 
     useEffect(() => {
-        Axios.get('http://localhost:3001/dbGeography')
+        Axios.get('https://quizzerproject.herokuapp.com/dbGeography')
         .then((resp) => {
             setRank(resp.data)
         })

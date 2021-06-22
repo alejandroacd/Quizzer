@@ -44,7 +44,7 @@ export const AuthProvider = ({children}) => {
             setLoading(false)
             setCurrentUser(user)
          })
-         Axios.get('http://localhost:3001/db')
+         Axios.get('https://quizzerproject.herokuapp.com/db')
          .then((resp)=>{
              setDb(resp.data)
          })

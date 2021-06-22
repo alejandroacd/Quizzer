@@ -23,7 +23,7 @@ const PreguntasHistoria = () => {
 
          if (timer === 0) {
             if(count > highScore){
-                Axios.put('http://localhost:3001/updateHistory', {
+                Axios.put('https://quizzerproject.herokuapp.com/updateHistory', {
                     id: user[0]._id,
                     highScoreHistory: count
                    

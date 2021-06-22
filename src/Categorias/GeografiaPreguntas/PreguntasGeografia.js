@@ -25,7 +25,7 @@ const PreguntasGeografia = () => {
 
     if (timer === 0) {
         if(count > highScore){
-            Axios.put('http://localhost:3001/updateGeography', {
+            Axios.put('https://quizzerproject.herokuapp.com/updateGeography', {
                 id: user[0]._id,
                 highScoreGeography: count
                
