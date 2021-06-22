@@ -23,9 +23,9 @@ export const CategoriasProvider = ({ children }) => {
     const [preguntaGeografia, setPreguntaGeografia] = useState([DataPreguntasGeografia[randomNumberGeografia]])
     const [success, setSuccess] = useState(false);
     const optionIndex = [1, 2, 3, 4];
-    let messageDeportes = `http://web.whatsapp.com/send?text=Te reto a responder más preguntas correctas sobre Deportes que yo! Mi puntuación fué: ${count}, entrá a quizzer.com`
-    let messageHistoria = `http://web.whatsapp.com/send?text=Te reto a responder más preguntas correctas sobre Historia que yo! Mi puntuación fué: ${count}, entrá a quizzer.com`
-    let messageGeografia = `http://web.whatsapp.com/send?text=Te reto a responder más preguntas correctas sobre Geografia que yo! Mi puntuación fué: ${count}, entrá a quizzer.com`
+    let messageDeportes = `http://web.whatsapp.com/send?text=Te reto a responder más preguntas correctas sobre Deportes que yo! Mi puntuación fué: ${count}, entrá a quizzerproject.netlify.app`
+    let messageHistoria = `http://web.whatsapp.com/send?text=Te reto a responder más preguntas correctas sobre Historia que yo! Mi puntuación fué: ${count}, entrá a quizzerproject.netlify.app`
+    let messageGeografia = `http://web.whatsapp.com/send?text=Te reto a responder más preguntas correctas sobre Geografia que yo! Mi puntuación fué: ${count}, entrá a quizzerproject.netlify.app`
 
 
 
