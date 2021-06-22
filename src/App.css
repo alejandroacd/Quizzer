@@ -8,8 +8,7 @@
 
 
 html {
-    
-
+    height: 100%;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -18,7 +17,7 @@ html {
     width: 100%;
     display:flex;
     height: 100vh;
-    color:#d8e3e7;
+    color:white;
     background-color:rgb(5,5,5);
     flex-direction: column;
     transition:0.5s

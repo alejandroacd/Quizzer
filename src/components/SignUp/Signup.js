@@ -43,7 +43,7 @@ const Signup = () => {
   }
 
   return (
-    <div className="card1 w-75 d-flex">
+    <div className="card1  d-flex">
       <h1 className="text-center">Sign up</h1>
 
       { error ? <div class="alert alert-danger m-0 p-2" role="alert">

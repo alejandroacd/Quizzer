@@ -11,7 +11,7 @@ export const RankProto = () => {
    
     return (
         <div>
-            <h1 className='text-center'> Ranking {categorie} </h1>
+            <h1 className='text-center rank_title'> Ranking {categorie} </h1>
              <div className="optiones_ranking">
                  <Link onClick={() => cambiarCategoria("#Deportes")} to="/rankingDeporte"><button className="btn btn-outline-success">Deportes <GiSoccerBall /></button></Link>
                  <Link onClick={() => cambiarCategoria("#Historia")} to="/rankingHistoria"><button className="btn btn-outline-warning">Historia <GiSecretBook /></button></Link> 

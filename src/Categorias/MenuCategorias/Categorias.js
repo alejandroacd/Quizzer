@@ -39,8 +39,8 @@ const Categorias = () => {
                 </div>
             </div>
             <Wave /> 
-
         </div>
+        
     )
 }
 
