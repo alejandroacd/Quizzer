@@ -63,6 +63,7 @@
     left: 0;
     width: 100%;
     transform: rotate(180deg);
+    
 }
 
 .custom-shape-divider-bottom-16243356490 svg {
@@ -83,7 +84,8 @@
    .contenedor_categories1 {
        margin-top:15%;
    }
-   
+
+ 
 }
 @media only screen and (min-width: 992px) {
     .all {

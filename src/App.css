@@ -72,8 +72,3 @@ html {
     }
   }
 
-  @media only screen and (min-width: 768px) {
-    .custom-shape-divider-bottom-1624303825 {
-        display:flex;
-    }
-  }
