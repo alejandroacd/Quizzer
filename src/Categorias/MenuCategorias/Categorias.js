@@ -4,7 +4,8 @@ import { GiSoccerBall } from 'react-icons/gi'
 import { GiSecretBook } from 'react-icons/gi'
 import { GiEarthAmerica } from 'react-icons/gi'
 import { Link } from 'react-router-dom'
-import YellowWave from '../../components/HowToPlay/YellowWave'
+import BlueWave from './BlueWave'
+
 
 
 const Categorias = () => {
@@ -41,7 +42,7 @@ const Categorias = () => {
             </div>
            
         </div>
-        <YellowWave />
+        <BlueWave />
         </>
         
     )
