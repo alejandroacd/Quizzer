@@ -3,24 +3,13 @@
     
 }
 
-.all {
-    margin-top:30%;
-    transition: 1s;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-between;
-}
 
-.titulo_categorias {
-   position:relative;
-   bottom: 40%;
-   
-}
+
 .contenedor_categories1 {
     display:flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom:20%;
+    margin-top:30%;
 }
 
 .football-icon {
@@ -35,6 +24,7 @@
 .contenedor_categories2 {
     display: flex;
     justify-content: center;
+    margin-top:15%;
     
 }
 
@@ -72,7 +62,7 @@
 @media only screen and (min-width: 768px){ 
 
     .all {
-        margin-top: 30%;    
+        margin-top: 0;    
     }
    
 }
@@ -80,12 +70,12 @@
 @media only screen and (min-width: 992px){ 
 
     .all {
-        margin-top: 12%;    
+        margin-top:0;
     }
 
     .contenedor_categories1 {
         justify-content: space-evenly;
-        margin-bottom:11%;
+        margin-top:10%;
     }
    
 }

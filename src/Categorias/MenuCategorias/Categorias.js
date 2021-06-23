@@ -4,12 +4,13 @@ import { GiSoccerBall } from 'react-icons/gi'
 import { GiSecretBook } from 'react-icons/gi'
 import { GiEarthAmerica } from 'react-icons/gi'
 import { Link } from 'react-router-dom'
-import Wave from '../../components/Wave'
+import YellowWave from '../../components/HowToPlay/YellowWave'
 
 
 const Categorias = () => {
 
     return (
+        <>
         <div className="all">
 
             <h1 className="titulo_categorias text-center"> Elige una categoría</h1>
@@ -38,8 +39,10 @@ const Categorias = () => {
 
                 </div>
             </div>
-            <Wave /> 
+           
         </div>
+        <YellowWave />
+        </>
         
     )
 }
