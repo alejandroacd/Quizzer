@@ -35,7 +35,7 @@ const Header = () => {
             <p onClick={handleClick}><strong>X</strong></p>
             <ul>
 
-               <Link to="https://quizzerproject.netlify.app" onClick={handleClick} style={{ textDecoration: 'none' }} ><li>Inicio</li></Link>
+               <Link to="/" onClick={handleClick} style={{ textDecoration: 'none' }} ><li>Inicio</li></Link>
                <hr></hr>
                <Link to="/rankingDeporte" onClick={handleClick} style={{ textDecoration: 'none' }} ><li>Ranking</li></Link>
                <hr></hr>
