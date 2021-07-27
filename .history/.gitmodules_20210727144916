@@ -3,5 +3,5 @@
 	url = https://github.com/alejandroacd/Quizzer.git
 
 [submodule "server"]
-	path = /quizzer/server
+	path = /Quizzer/server
 	url = https://github.com/alejandroacd/Quizzer.git
