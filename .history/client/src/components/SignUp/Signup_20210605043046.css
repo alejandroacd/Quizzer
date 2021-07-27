@@ -1,0 +1,63 @@
+.card1 {
+    
+    flex-direction: column;
+    margin: 0 auto;
+   
+    font-family: 'Raleway';
+    position: relative;
+    top:4%;
+    align-content: center;
+    height: auto;
+    padding: 1rem;
+    border-radius: .25rem;
+
+    
+  }
+  
+input {
+    width: 100%;
+    background:transparent;
+    border-bottom: 1px solid white;
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+    outline: none;
+    color:unset;
+    
+    
+    
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:10%;
+    
+}
+
+
+.card1 form input:focus {
+    outline: none;
+    border-bottom: 1px solid #fdca40;
+    transition: 0.5s;
+}
+
+.btn {
+    opacity: 0.8;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: black;    
+}
+
+.alert {
+    font-weight: bolder;
+}
+
+@media only screen and (min-width: 992px) {
+    form {
+        margin-top:5%;
+    }
+}

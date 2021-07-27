@@ -1,0 +1,3 @@
+[submodule "Quizzer"]
+	path = Quizzer
+	url = https://github.com/alejandroacd/Quizzer.git

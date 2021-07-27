@@ -1,0 +1,153 @@
+
+.preguntas {
+    margin-top:30%;
+}
+h1 {
+    font-size:1.7em;
+    
+}
+.preguntas-deportes {
+    list-style: none;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     font-size: 1.2rem;
+
+}
+
+.preguntas-deportes li {
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+    border:1px solid;
+    margin: 0.3rem;
+    text-align: center;
+    
+}
+
+.contenedor_pregunta h1 {
+    text-align: center;
+    margin-bottom:10%;
+}
+
+.contador_timer {
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    bottom:30%;
+}
+
+.contador_timer .count{
+    font-size: 2em;
+    margin-left: 10%;
+}
+
+.check {
+    color:#4aa96c;
+}
+
+.timer {
+    font-size: 2em;
+    margin-right: 10%;
+}
+
+.clock {
+    color:#ffd56b;
+}
+
+.green {
+  background: green;
+}
+
+.bg-failed {
+  background-color: red;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .85 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .85 );
+  }
+  100%
+  {
+    transform: scale( .5 );
+  }
+}
+
+
+.animate {
+    animation: heartbeat 1s;
+}
+
+.finalMessage {
+  margin-top:12%;
+  display:flex;
+  flex-direction: column;
+ 
+}
+
+.finalMessage a {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+
+
+@media only screen and (min-width: 992px){
+  .preguntas {
+    position: relative;
+    top:15%;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .contenedor_pregunta h1{
+    margin-bottom:5%;
+    font-size: 2.3em;
+  }
+
+  .preguntas-deportes li {
+    width: 50%;
+    margin: 0.3em auto;
+    
+    
+  }
+
+  .finalMessage {
+    margin-top:5%;
+  }
+
+  .finalMessage h1 {
+    font-size: 4em;
+  }
+
+  .finalMessage p {
+    font-size: 2em
+  }
+  
+  .finalMessage a {
+    text-decoration: none;
+  }
+
+  .finalMessage a button {
+    width: 50%;
+  }
+}

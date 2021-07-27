@@ -1,0 +1,95 @@
+* {
+    font-family:  'Raleway';
+    
+}
+
+
+
+.contenedor_categories1 {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:19%;
+}
+
+.football-icon {
+    
+    font-size: 3em;
+}
+
+.book-icon {
+    color:#ffdf6b;
+    font-size: 3em;
+}
+.contenedor_categories2 {
+    display: flex;
+    justify-content: center;
+    margin-top:15%;
+    
+}
+
+.earth-icon {
+    color:#2978b5;
+    font-size: 3em;
+}
+
+.categoria_deportes h1, .categoria_historia h1, .categoria_geografia h1{
+ font-size: 1.3em;
+ margin-top:10%;
+}
+
+.categoria_deportes a, .categoria_historia a , .categoria_geografia a {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: unset;
+}
+
+
+.link1{
+    transform: scale(1.1);
+}
+
+.link1:hover {
+    transform:scale(1.3);
+    transition: 0.2s;
+    
+}
+
+.custom-shape-divider-bottom-16243356490 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-16243356490 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 100px);
+    height: 60px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-16243356490 .shape-fill2 {
+    fill: #F4D160;
+}
+
+
+@media only screen and (min-width: 768px){ 
+
+   .contenedor_categories1 {
+       margin-top:15%;
+   }
+   
+}
+@media only screen and (min-width: 992px) {
+    .all {
+       margin-top:0;
+    }
+}
+
+
+
