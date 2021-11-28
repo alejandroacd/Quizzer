@@ -10,19 +10,23 @@ export const RankProto = () => {
    const { cambiarCategoria,categorie } = useRanking();
    
     return (
-        <div>
-            <h1 className='text-center rank_title'> Ranking {categorie} </h1>
+        <>
              <div className="optiones_ranking">
+             <h1 className='text-center rank_title'> Ranking {categorie} </h1>
+                <div className="buttons_ranking">
                  <Link onClick={() => cambiarCategoria("#Deportes")} to="/rankingDeporte"><button className="btn btn-outline-success">Deportes <GiSoccerBall /></button></Link>
                  <Link onClick={() => cambiarCategoria("#Historia")} to="/rankingHistoria"><button className="btn btn-outline-warning">Historia <GiSecretBook /></button></Link> 
                  <Link onClick={() => cambiarCategoria("#Geografia")} to="/rankingGeografia"><button className="btn btn-outline-primary">Geografía <GiEarthAmerica /></button></Link>
-
-             </div>
+                 </div>
+             
              <div className="keys">
                  <h2>Name</h2>
                  <h2>High Score</h2>
              </div> 
-        </div>
+             </div>
+
+    </>
+        
     )
 }
 

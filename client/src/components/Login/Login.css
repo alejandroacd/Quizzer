@@ -1,13 +1,19 @@
 .card2 {
     display: flex;
     flex-direction: column;
-    width: 96%;
+    width: 75%;
     margin: 0 auto;
     position:relative;
     top:10%;
-    
+    }
 
-}
+    .card2 form label {
+        font-weight: bolder;
+    }
+
+    .card2 h1 {
+        font-weight: bolder;
+    }
 .card2 input {
     background: transparent;
     color:unset;
@@ -18,8 +24,23 @@
     transition: 0.5s;
 }
 
+.card2 .signup_button {
+    font-weight: bolder;
+}
+
+.card2 .signup_button a {
+    font-weight: bolder;
+    
+}
+
+.card2 form button {
+    font-weight: bold;
+
+}
+
 @media only screen and (min-width: 992px) {
     .card2 {
         top:20%;
+        width: 50%;
     }
 }

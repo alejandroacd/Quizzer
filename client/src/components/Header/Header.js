@@ -1,56 +1,44 @@
 import React from 'react';
 import './Header.css'
 import { useState } from 'react';
-import { FiMenu } from "react-icons/fi";
 import { Link } from 'react-router-dom';
- 
+import { AiOutlineMenu } from 'react-icons/ai'
 
 
 const Header = () => {
 
    const [click, setClick] = useState(false);
-   
+
    const redirect = () => {
       window.location.href = 'https://quizzerproject.netlify.app'
    }
-  
+
 
    const handleClick = () => {
       setClick(!click);
    }
    return (
-      <div className='headerContainer'>
-         <header className='navHeader'>
-            <h1 onClick={redirect}> Quizzer </h1>
-            {click ? null : <nav>
-               <FiMenu onClick={handleClick} className='menu-mobile-bar'/>
-               
-            </nav>
-            }
-
+      <div className="header-container">
+         <header className="nav_header">
+            <h1 onClick={redirect}>Quizzer</h1>
          </header>
 
-          
-         { click ? <div className='container'>
-            <p onClick={handleClick}><strong>X</strong></p>
-            <ul>
-
-               <Link to="/" onClick={handleClick} style={{ textDecoration: 'none' }} ><li>Inicio</li></Link>
-               <hr></hr>
-               <Link to="/rankingDeporte" onClick={handleClick} style={{ textDecoration: 'none' }} ><li>Ranking</li></Link>
-               <hr></hr>
-               <Link to="/howtoplay" onClick={handleClick} style={{ textDecoration: 'none' }} > <li>¿Cómo jugar?</li> </Link>
-               <hr></hr>
-   
-
+         <div className={click ? "d-flex menu-container" : "d-none menu-container"}>
+            <div className="close-container">
+            <p onClick={handleClick}>x</p>
+            </div>
+            <ul className="menu_options">
+               <Link to="/"><li>Inicio</li></Link>
+               <Link to="/rankingDeporte"><li>Ranking</li></Link>
+               <Link to="/HowToPlay"><li>¿Cómo jugar?</li></Link>
             </ul>
-         </div> : null}
+         </div>
 
-
-
+         <div className="menu-burger-container"> 
+         <AiOutlineMenu size={30} className="menu_burger" onClick={handleClick} />
+         </div>
       </div>
-
    )
 }
 
-export default Header;
+export default Header

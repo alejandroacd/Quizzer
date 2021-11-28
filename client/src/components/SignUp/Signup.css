@@ -13,11 +13,24 @@
 
     
   }
+
+  .card1 h1 {
+      font-weight: bolder;
+      font-size:2rem;
+  }
+
+  .login_button {
+      font-weight: bolder;
+  }
+
+  .login_button a {
+      font-weight: bolder;
+  }
   
 input {
     width: 100%;
     background:transparent;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--white);
     border-top:0;
     border-left: 0;
     border-right: 0;
@@ -36,6 +49,9 @@ form {
     
 }
 
+.card1 form label {
+    font-weight: bolder;
+}
 
 .card1 form input:focus {
     outline: none;
@@ -49,7 +65,7 @@ form {
 }
 
 .card {
-    background-color: black;    
+    background-color: #0e1111;
 }
 
 .alert {

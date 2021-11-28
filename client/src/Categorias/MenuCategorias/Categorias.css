@@ -3,8 +3,19 @@
     
 }
 
+.all {
+    display: flex;
+    height: 70vh;
+   
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
 
 
+.all .titulo_categorias {
+    font-weight: bolder;
+}
 .contenedor_categories1 {
     display:flex;
     justify-content: space-around;
@@ -35,6 +46,7 @@
 
 .categoria_deportes h1, .categoria_historia h1, .categoria_geografia h1{
  font-size: 1.3em;
+
  margin-top:10%;
 }
 
@@ -90,11 +102,21 @@
 @media only screen and (min-width: 992px) {
     .all {
        margin-top:0;
+       height: 80vh;
     }
+
+    .all .titulo_categorias {
+        font-size:2em;
+    }
+
     .contenedor_categories1 {
-        margin-top:10%;
+        margin-top:5%;
+        justify-content: space-evenly;
+    }
+
+    .contenedor_categories2 {
+        margin-top: 10%;
     }
 }
-
 
 

@@ -63,7 +63,7 @@ const Signup = () => {
         <br />
         <input placeholder='Confirma tu contraseña' ref={passwordConfirmRef} type='password' required />
         <button className="btn btn-outline-info mt-4 w-100" onClick={handleSubmit} type="submit" disabled={loading}>Sign up</button>
-        <div className="mt-3">already have an account?  <Link to="/Login">Login</Link></div>
+        <div className="login_button mt-3">¿Ya tienes una cuenta? <Link to="/Login">Login</Link></div>
 
       </form>
     </div>

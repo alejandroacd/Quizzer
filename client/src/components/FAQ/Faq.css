@@ -4,32 +4,77 @@
     display: flex;
     flex-direction: column;
     width: 80%;
+   
 
 }
-
+.faq-container h2 {
+  font-weight: bolder;
+}
 .faq-container h1 {
     font-size: 1rem;
     width: auto;
     color:white;
+    font-weight: bolder;
+    
 }
 .faq-container p {
-    color:#d8e3e7;
+    color:white;
 }
 .card {
-    padding: 1rem;
+
+    background-color: #4A47A3;
+    padding: 0.5rem;
     margin-top:3%;
-    opacity: 0.8;
+    opacity: 0.7
 }
 
+.custom-shape-divider-bottom-1638083619 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-bottom-1638083619 svg {
+    position: relative;
+    display: block;
+    width: calc(164% + 1.3px);
+    height: 50px;
+}
 
+.custom-shape-divider-bottom-1638083619 .shape-fill {
+    fill: #4A47A3;
+    opacity:  0.8;
+}
 @media only screen and (min-width: 768px) {
 
-    .faq-container  {
-        margin-top: 5%;
+    .faq-container h2 {
+        font-size: 3rem;
+    }
+
+    .card h1 {
+        font-size:1.2rem;
+    }
+    .card p {
+        font-size: 1.1rem;
+    }
+    .faq-container {
+        height: 60%;
     }
 
     .faq-container .card h1 {
         font-size: 1.6;
     }
+
+    .custom-shape-divider-bottom-1638083619 svg {
+        height: 120px;
+        opacity: 0.5
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    
+
 }

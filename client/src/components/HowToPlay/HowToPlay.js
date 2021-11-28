@@ -13,7 +13,6 @@ const HowToPlay = () => {
         </p>
         </div> 
 
-        <button className='btn btn-block'></button>
         <YellowWave />
         </>
     )
