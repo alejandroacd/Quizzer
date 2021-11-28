@@ -6,15 +6,12 @@
   margin: 0 auto;
   display:flex;
   flex-direction: column;
-  height: 55vh;
+  height: 60vh;
   align-items: center;
-  justify-content: space-evenly;
-
+  justify-content: space-around;
+padding:0.5em;
 
 }
-
-
-
 .menuOptions {
     width: 100%;
     
@@ -64,7 +61,7 @@
     text-align: center;
     font-size: 1.1rem;
     font-weight: bolder;
-    width: 70%;
+    width: 100%;
     box-shadow: rgba(123, 123, 128, 0.2) 0px 7px 29px 0px;
     border: 0.1px solid #515585;
     padding: 0.8rem 0;

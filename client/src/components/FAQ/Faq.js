@@ -1,6 +1,6 @@
 import React from 'react';
 import './Faq.css';
-import VioletWave from './VioletWave';
+
 import { Link } from 'react-router-dom'
 
 
@@ -28,7 +28,6 @@ const Faq = () => {
         
         </div>
 
-        <VioletWave/>
         </>
     )
 }
