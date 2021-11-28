@@ -52,8 +52,9 @@
 }
 
 .close-container {
+    position:relative;
+    top:2.5rem;
     display: flex;
-    height: 10vh;
     align-items:center;
 }
 
