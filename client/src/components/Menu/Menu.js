@@ -42,8 +42,6 @@ const Menu = () => {
     await logout();
   }
 
-
-
   return (
     <>
 

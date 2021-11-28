@@ -23,14 +23,14 @@ const Header = () => {
             <h1 onClick={redirect}>Quizzer</h1>
          </header>
 
-         <div className={click ? "d-flex menu-container" : "d-none menu-container"}>
+         <div className={click ? "menu-container d-flex" : "menu-container d-none"}>
             <div className="close-container">
             <p onClick={handleClick}>x</p>
             </div>
             <ul className="menu_options">
-               <Link to="/"><li>Inicio</li></Link>
-               <Link to="/rankingDeporte"><li>Ranking</li></Link>
-               <Link to="/HowToPlay"><li>¿Cómo jugar?</li></Link>
+               <Link onClick={handleClick} to="/"><li>Inicio</li></Link>
+               <Link onClick={handleClick} to="/rankingDeporte"><li>Ranking</li></Link>
+               <Link onClick={handleClick} to="/HowToPlay"><li>¿Cómo jugar?</li></Link>
             </ul>
          </div>
 
