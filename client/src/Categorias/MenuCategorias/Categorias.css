@@ -46,7 +46,7 @@
 
 .categoria_deportes h1, .categoria_historia h1, .categoria_geografia h1{
  font-size: 1.3em;
-
+ font-weight: bolder;
  margin-top:10%;
 }
 

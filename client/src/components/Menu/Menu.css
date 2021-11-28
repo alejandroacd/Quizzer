@@ -96,7 +96,8 @@ padding:0.5em;
 .user_title {
     text-align: center;
     position:relative;
-    top:0
+    top:0;
+    font-weight: bolder;
 }
 
 
@@ -138,7 +139,7 @@ padding:0.5em;
 
        .jupitert {
            width: 35%;
-           opacity: 0.3;
+           opacity: 0.5;
        }
        .cardt {
            width: 70%;
