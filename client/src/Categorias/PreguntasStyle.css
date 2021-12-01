@@ -26,10 +26,7 @@ h1 {
     text-align: center;
     
 }
-.preguntas-deportes li:hover {
-  background-color: #222831;
-  color: var(--white)
-}
+
 
 .contenedor_pregunta h1 {
     text-align: center;
@@ -121,6 +118,10 @@ h1 {
 
 
 @media only screen and (min-width: 992px){
+  .preguntas-deportes li:hover {
+    background-color: #222831;
+    color: var(--white)
+  }
 
 .contador_timer  {
   font-size:1.5em
@@ -186,4 +187,10 @@ h1 {
   .contador_timer {
     font-size: 1.2em;
   }
+
+  .preguntas-deportes li:hover {
+    background-color: #222831;
+    color: var(--white)
+  }
+
 }
