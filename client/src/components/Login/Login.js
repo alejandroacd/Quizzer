@@ -25,7 +25,7 @@ const Login = () => {
       history.push("/")
     }
     catch {
-      setError('failed to login')
+      setError('Campos con valores incorrectos')
     }
 
     setLoading(false);

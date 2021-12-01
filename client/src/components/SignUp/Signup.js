@@ -29,14 +29,14 @@ const Signup = () => {
      })
      .then(() =>{
       if(passwordRef.current.value !== passwordConfirmRef.current.value){
-        setError('password does not macth')
+        setError('Las contraseñas no coinciden')
     } else {
       setTimeout(() => {
         window.location.href = 'http://localhost:3000/'
       },1500)
     }})
     .catch((error) =>{
-       setError(error.message)
+       setError('Error de orígen: ' + error.message)
      })
     
     setLoading(false);  

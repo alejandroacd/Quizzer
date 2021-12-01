@@ -4,11 +4,14 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-   
+   animation-name: fadein;
+   animation-duration: 1s;
 
 }
 .faq-container h2 {
   font-weight: bolder;
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
 .faq-container h1 {
     font-size: 1rem;
@@ -75,6 +78,8 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    
 
+    .card {
+        padding:1em;
+    }
 }

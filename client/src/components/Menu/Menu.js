@@ -12,6 +12,7 @@ const Menu = () => {
   const { currentUser, logout } = useAuth();
   const [lightmode, setLightmode] = useState(true);
 
+ 
   const handleChange = () => {
 
     setLightmode(!lightmode)
@@ -33,7 +34,6 @@ const Menu = () => {
       document.getElementsByTagName('html')[0].style.backgroundColor = "white"
       document.getElementsByTagName('html')[0].style.color = "#0e1111"
     }
-
     console.log(lightmode)
 
   }
@@ -42,13 +42,15 @@ const Menu = () => {
     await logout();
   }
 
+
+
   return (
     <>
 
 
       {currentUser ? <h2 className='user_title'> Hola! {currentUser.displayName} <GiStarsStack className="stars" /> </h2> :
-       <div class="cardt border-secondary">
-       <div class="card-header" > <AiOutlineInfoCircle /> Para poder jugar necesitás iniciar sesión (registrarte te tomará segundos)</div>
+       <div className="cardt border-secondary">
+       <div className="card-header" > <AiOutlineInfoCircle /> Para poder jugar necesitás iniciar sesión (registrarte te tomará segundos)</div>
      
      </div> }
 

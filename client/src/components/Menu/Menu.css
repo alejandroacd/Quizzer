@@ -10,12 +10,11 @@
   align-items: center;
   justify-content: space-around;
 padding:0.5em;
-
+animation-name: fadein;
+animation-duration: 1s;
 }
 .menuOptions {
     width: 100%;
-    
-    
 }
 
 .cardt {
@@ -88,16 +87,25 @@ padding:0.5em;
 }
 
 .jupitert {
+    position:relative;
     width: 45%;
     opacity: 0.4;
+    transition: 1s;
+  
 }
 
+.fadeLeft {
+    animation-name: fadeLeft;
+    animation-duration: 1s;
+}
 
 .user_title {
     text-align: center;
     position:relative;
     top:0;
     font-weight: bolder;
+    animation-duration: 2s;
+    animation-name:fadein;
 }
 
 

@@ -1,12 +1,13 @@
 .howtoplay_container {
-    
-    width: 50%;
+    width: 85%;
     margin: 0 auto;
     padding:1em;
     height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    animation-duration: 1s;
+    animation-name: fadein;
 }
 
 
@@ -19,8 +20,9 @@
 
 .howtoplay_container p {
     margin: 0 auto;
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: bolder;
+    
 }
 
 .custom-shape-divider-bottom-1624335649 {
@@ -43,4 +45,30 @@
 
 .custom-shape-divider-bottom-1624335649 .shape-fill {
     fill: #F4D160;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .howtoplay_container {
+        width: 45%;
+    }
+
+}
+
+@media only screen and (min-width: 992px)  {
+    .howtoplay_container {
+        width: 30%;
+    }
+
+
 }

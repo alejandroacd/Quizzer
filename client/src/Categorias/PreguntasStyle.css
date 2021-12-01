@@ -17,9 +17,6 @@ h1 {
      font-weight: bolder;
 
 }
-
-
-
 .preguntas-deportes li {
     display: flex;
     justify-content: center;
@@ -28,6 +25,10 @@ h1 {
     margin: 0.3rem;
     text-align: center;
     
+}
+.preguntas-deportes li:hover {
+  background-color: #222831;
+  color: var(--white)
 }
 
 .contenedor_pregunta h1 {
@@ -50,6 +51,7 @@ h1 {
 
 .check {
     color:#4aa96c;
+    
 }
 
 .timer {
@@ -119,19 +121,29 @@ h1 {
 
 
 @media only screen and (min-width: 992px){
+
+.contador_timer  {
+  font-size:1.5em
+}
   .preguntas {
     position: relative;
     top:15%;
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
   }
   .contenedor_pregunta h1{
     margin-bottom:5%;
-    font-size: 2.3em;
+    font-size: 3em;
   }
 
   .preguntas-deportes li {
-    width: 50%;
+    padding:1em;
+    font-size: 1.4em;
+  
+  }
+
+  .preguntas-deportes li {
+    width: 70%;
     margin: 0.3em auto;
     
     
@@ -155,5 +167,23 @@ h1 {
 
   .finalMessage a button {
     width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .contenedor_pregunta h1 {
+    font-size:2.5em;
+  }
+
+  .preguntas-deportes {
+    font-size:1em;
+  }
+
+  .preguntas-deportes li {
+    padding:0.5em;
+  }
+
+  .contador_timer {
+    font-size: 1.2em;
   }
 }

@@ -6,10 +6,11 @@
 .all {
     display: flex;
     height: 70vh;
-   
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    animation-name: fadein;
+    animation-duration: 1s;
 }
 
 
