@@ -64,8 +64,8 @@ const Menu = () => {
 
             <Link to="/Faq"><li> FAQ  </li></Link>
             {lightmode ? <li onClick={handleChange}> Light mode </li> :
-              <li id="switche__btn" onClick={handleChange}>Dark mode</li>}
-            {currentUser ? <li onClick={handleLogout}>LOG OUT</li> : <Link to="/rankingDeporte"> <li> Ranking</li></Link>}
+              <li id="switche__btn" onClick={handleChange}> Dark mode </li>}
+            {currentUser ? <li onClick={handleLogout}> Cerrar sesión </li> : <Link to="/rankingDeporte"> <li> Ranking</li></Link>}
 
           </ul>
         </div>

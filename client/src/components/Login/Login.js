@@ -33,7 +33,7 @@ const Login = () => {
 
   return (
     <div className="card2">
-      <h1 className="text-center">Login</h1>
+      <h1 className="text-center"> Iniciar sesión </h1>
        { error ? <div class="alert alert-danger m-0 p-3" role="alert">
         {error}
        </div> : null}

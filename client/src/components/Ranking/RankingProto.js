@@ -20,7 +20,7 @@ export const RankProto = () => {
                  </div>
              
              <div className="keys">
-                 <h2>Name</h2>
+                 <h2>Nombre</h2>
                  <h2>High Score</h2>
              </div> 
              </div>

@@ -44,7 +44,7 @@ const Signup = () => {
 
   return (
     <div className="card1  d-flex">
-      <h1 className="text-center">Sign up</h1>
+      <h1 className="text-center">Regístrate</h1>
 
       { error ? <div class="alert alert-danger m-0 p-2" role="alert">
         {error}
@@ -53,17 +53,17 @@ const Signup = () => {
         <label >e-mail</label>
         <br />
         <input placeholder='Escribe tu e-mail...' ref={emailRef} type='email' required />
-        <label className='mt-4'>username</label>
+        <label className='mt-4'> nombre de usuario </label>
         <br />
         <input placeholder='Your username' ref={usernameRef} type='text' required />
-        <label className="mt-4">Password</label>
+        <label className="mt-4">Contraseña</label>
         <br />
         <input placeholder='Tu contraseña...' ref={passwordRef} type='password' required />
-        <label className="mt-4">Confirm your password</label>
+        <label className="mt-4">Confirma tu contraseña</label>
         <br />
         <input placeholder='Confirma tu contraseña' ref={passwordConfirmRef} type='password' required />
-        <button className="btn btn-outline-info mt-4 w-100" onClick={handleSubmit} type="submit" disabled={loading}>Sign up</button>
-        <div className="login_button mt-3">¿Ya tienes una cuenta? <Link to="/Login">Login</Link></div>
+        <button className="btn btn-outline-info mt-4 w-100" onClick={handleSubmit} type="submit" disabled={loading}>Regístrate</button>
+        <div className="login_button mt-3">¿Ya tienes una cuenta? <Link to="/Login">Inicia sesión </Link></div>
 
       </form>
     </div>

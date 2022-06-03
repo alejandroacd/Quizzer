@@ -2,7 +2,7 @@
     
     flex-direction: column;
     margin: 0 auto;
-    width: 85%;
+    width: 50%;
     font-family: 'Raleway';
     position: relative;
     top:4%;
@@ -37,6 +37,7 @@ input {
     box-shadow: none;
     outline: none;
     color:unset;
+    padding:1em
     
     
     
@@ -75,5 +76,13 @@ form {
 @media only screen and (min-width: 992px) {
     form {
         margin-top:5%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .card1 {
+        width: 95%;
     }
 }
