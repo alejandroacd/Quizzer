@@ -20,7 +20,7 @@ const Header = () => {
    return (
       <div className="header-container">
          <header className="nav_header">
-            <h1 onClick={redirect}>Quizzer</h1>
+            <h1 onClick={redirect}> quizzer </h1>
          </header>
 
          <div className={click ? "menu-container d-flex" : "menu-container d-none"}>

@@ -20,9 +20,7 @@
     font-weight: bolder;
     
 }
-.faq-container p {
-    color:white;
-}
+
 .card {
 
     background-color: #4A47A3;
@@ -51,6 +49,8 @@
     fill: #4A47A3;
     opacity:  0.8;
 }
+
+
 @media only screen and (min-width: 768px) {
 
     .faq-container h2 {
@@ -75,6 +75,24 @@
         height: 120px;
         opacity: 0.5
     }
+}
+
+.faq-container .card p a:visited {
+    color: #fff;
+    font-weight: bolder;
+}
+@media only screen and (min-width: 992px) {
+    .faq-container .card p {
+        font-size:1.3em
+    }
+
+    .faq-container .card h1 {
+        font-size:1.8em;
+    }
+    .faq-container {
+        width: 50%;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
